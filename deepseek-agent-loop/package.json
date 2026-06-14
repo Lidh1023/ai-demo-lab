@@ -1,0 +1,22 @@
+{
+  "name": "deepseek-agent-loop",
+  "version": "0.1.0",
+  "description": "一个使用 DeepSeek 和 Node.js 实现的最小 Agent Loop Demo。",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/agent.js && node --check src/config.js && node --check src/deepseekClient.js && node --check src/tools.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "deepseek",
+    "agent",
+    "tool-calls",
+    "function-calling",
+    "nodejs"
+  ],
+  "license": "MIT"
+}

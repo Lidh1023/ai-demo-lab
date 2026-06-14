@@ -1,12 +1,12 @@
-# AI Demo Lab
+# AI Demo 实战仓库
 
-This repository collects small AI demos and experiments.
+这个仓库用于收集 AI 相关的小型实战 Demo 和实验项目。
 
-## Projects
+## 项目列表
 
-- `deepseek-agent-loop/`: a minimal DeepSeek-powered agent loop demo.
+- `deepseek-agent-loop/`：一个基于 DeepSeek 的最小 Agent Loop Demo。
 
-## Repository Layout
+## 仓库结构
 
 ```text
 .
@@ -17,6 +17,7 @@ This repository collects small AI demos and experiments.
     └── .env.example
 ```
 
-## Notes
+## 注意事项
 
-API keys should be stored in local environment files such as `.env`, never committed to Git.
+API Key 应该保存在本地环境变量文件中，例如 `.env`。不要把 API Key 提交到 Git 仓库。
+https://github.com/Lidh1023/ai-demo-lab
